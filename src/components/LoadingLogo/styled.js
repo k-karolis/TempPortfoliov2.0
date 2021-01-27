@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const Loading = styled.div`
   transform: scale(1.25);
   height: 100px;
+  width: 120px;
+  /* border: 1px solid; */
 `;
 
 export const Circle = styled.svg`
@@ -13,7 +15,7 @@ export const Circle = styled.svg`
 
 export const Box = styled.svg`
   position: absolute;
-  left: calc(50% - 60px);
+  left: calc(50% - 62.5px);
   top: calc(50% - 40px);
 `;
 

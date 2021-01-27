@@ -11,6 +11,7 @@ import {
   Mail,
   Github,
   Linkedin,
+  Names,
 } from "./styled";
 // import ReactDOM from "react-dom";
 import LoadingLogo from "./components/LoadingLogo/LoadingLogo";
@@ -164,7 +165,10 @@ export default function App() {
             animate="enter"
             exit="initial"
           >
-            <Name>Karolis Kimtys</Name>
+            <Names>
+              <Name>Karolis&nbsp;</Name>
+              <Name>Kimtys</Name>
+            </Names>
           </motion.div>
 
           <motion.div

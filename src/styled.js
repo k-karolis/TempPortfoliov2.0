@@ -21,6 +21,10 @@ export const LogoPosition = styled.div`
   top: calc(50% - 61px);
   left: calc(50% - 400px);
   /* border: 1px solid red; */
+  @media only screen and (max-width: 950px) {
+    top: calc(15% - 61px);
+    left: calc(50% - 150px);
+  }
 `;
 
 export const Link = styled.div`
@@ -63,6 +67,20 @@ export const Intro = styled.div`
   /* border: 1px solid white; */
 
   /* border: 1px solid white; */
+
+  @media only screen and (max-width: 950px) {
+    top: calc(25% - 100px);
+    left: calc(50% - 260px);
+    /* flex-direction: column; */
+  }
+`;
+
+export const Names = styled.div`
+  @media only screen and (max-width: 950px) {
+    position: absolute;
+    top: calc(-15px);
+    left: calc(50% - 100px);
+  }
 `;
 
 export const Name = styled.h2`
@@ -71,18 +89,42 @@ export const Name = styled.h2`
   letter-spacing: 25px;
   text-shadow: 0px 0px 5px rgb(194, 77, 44);
   text-transform: uppercase;
+  display: inline-flex;
+  @media only screen and (max-width: 950px) {
+    display: block;
+    width: 300px;
+    margin: 5px;
+    letter-spacing: 5px;
+  }
 `;
 
 export const Title = styled.h5`
   color: rgb(217, 218, 215);
   letter-spacing: 30px;
   text-shadow: 0px 0px 5px rgb(194, 77, 44);
+  position: absolute;
+  top: calc(50% - 20px);
+  @media only screen and (max-width: 950px) {
+    position: absolute;
+    top: calc(35%);
+    left: calc(80px);
+    letter-spacing: 10px;
+    transform: rotate(-90deg);
+  }
 `;
 
 export const LinkButtons = styled.div`
   display: inline-flex;
   position: absolute;
+  top: calc(60%);
   right: 0;
+  @media only screen and (max-width: 950px) {
+    width: 300px;
+    position: absolute;
+    top: calc(45%);
+    left: calc(50% - 115px);
+    display: block;
+  }
 `;
 
 export const Github = styled.h5`
