@@ -154,7 +154,7 @@ export default function App() {
         </Link>
 
         <Link2 key={id()}>
-          <SplitText text="Website under construction" />
+          <SplitText text="Website-under-construction" />
         </Link2>
 
         <Intro>

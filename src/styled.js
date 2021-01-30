@@ -12,18 +12,24 @@ export const HighBody = styled.div`
   max-height: 100vh;
   max-width: 100vw;
   position: relative;
+  @media only screen and (max-width: 1000px) {
+    /* border: 1px solid red; */
+  }
 `;
 
 export const LogoPosition = styled.div`
   position: absolute;
   height: 100px;
-  width: 100px;
+  width: 200px;
   top: calc(50% - 61px);
   left: calc(50% - 400px);
   /* border: 1px solid red; */
-  @media only screen and (max-width: 950px) {
-    top: calc(15% - 61px);
-    left: calc(50% - 150px);
+  transition: all 600ms ease;
+  @media only screen and (max-width: 1000px) {
+    transition: all 1000ms ease;
+    top: calc(17%);
+    left: calc(50% - 100px);
+    transform: scale(0.75);
   }
 `;
 
@@ -38,6 +44,8 @@ export const Link = styled.div`
   -moz-user-select: none; /* Firefox all */
   -ms-user-select: none; /* Internet Explorer 10 and later */
   user-select: none; /* Likely future */
+  @media only screen and (max-width: 1000px) {
+  }
 `;
 
 export const Link2 = styled.div`
@@ -55,8 +63,8 @@ export const Link2 = styled.div`
 
 export const Intro = styled.div`
   position: absolute;
-  top: calc(50% - 100px);
-  left: calc(50% - 255px);
+  top: calc(50% - 149px);
+  left: calc(50% - 215px);
   width: 710px;
   height: 200px;
   white-space: nowrap;
@@ -64,22 +72,28 @@ export const Intro = styled.div`
   -moz-user-select: none; /* Firefox all */
   -ms-user-select: none; /* Internet Explorer 10 and later */
   user-select: none; /* Likely future */
+  transition: all 1000ms ease;
   /* border: 1px solid white; */
 
   /* border: 1px solid white; */
 
-  @media only screen and (max-width: 950px) {
-    top: calc(25% - 100px);
-    left: calc(50% - 260px);
+  @media only screen and (max-width: 1000px) {
+    width: 200px;
+    top: calc(21%);
+    left: calc(50% - 57px);
+    transition: all 1000ms ease;
+    /* border: solid; */
     /* flex-direction: column; */
   }
 `;
 
 export const Names = styled.div`
-  @media only screen and (max-width: 950px) {
+  width: 200px;
+  transition: all 1000ms ease;
+  @media only screen and (max-width: 1000px) {
+    transition: all 1000ms ease;
     position: absolute;
-    top: calc(-15px);
-    left: calc(50% - 100px);
+    top: calc(7%);
   }
 `;
 
@@ -90,26 +104,30 @@ export const Name = styled.h2`
   text-shadow: 0px 0px 5px rgb(194, 77, 44);
   text-transform: uppercase;
   display: inline-flex;
-  @media only screen and (max-width: 950px) {
+  transition: all 1000ms ease;
+  @media only screen and (max-width: 1000px) {
+    transition: all 1000ms ease;
     display: block;
-    width: 300px;
     margin: 5px;
     letter-spacing: 5px;
+    font-size: 3rem;
   }
 `;
 
 export const Title = styled.h5`
+  transition: all 1000ms ease;
   color: rgb(217, 218, 215);
   letter-spacing: 30px;
   text-shadow: 0px 0px 5px rgb(194, 77, 44);
   position: absolute;
   top: calc(50% - 20px);
-  @media only screen and (max-width: 950px) {
+  @media only screen and (max-width: 1000px) {
     position: absolute;
-    top: calc(35%);
-    left: calc(80px);
+    top: calc(30%);
+    left: calc(-190px);
     letter-spacing: 10px;
     transform: rotate(-90deg);
+    transition: all 1000ms ease;
   }
 `;
 
@@ -118,12 +136,14 @@ export const LinkButtons = styled.div`
   position: absolute;
   top: calc(60%);
   right: 0;
-  @media only screen and (max-width: 950px) {
-    width: 300px;
+  transition: all 1000ms ease;
+  @media only screen and (max-width: 1000px) {
+    width: 150px;
     position: absolute;
-    top: calc(45%);
-    left: calc(50% - 115px);
+    top: calc(40%);
+    left: calc(50% - 118px);
     display: block;
+    transition: all 1000ms ease;
   }
 `;
 
