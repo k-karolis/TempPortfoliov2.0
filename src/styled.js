@@ -45,6 +45,7 @@ export const Link = styled.div`
   -ms-user-select: none; /* Internet Explorer 10 and later */
   user-select: none; /* Likely future */
   @media only screen and (max-width: 1000px) {
+    bottom: 150px;
   }
 `;
 
