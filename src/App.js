@@ -136,6 +136,11 @@ export default function App() {
 
   return (
     <HighBody>
+      <title>Karolis Kimtys - Junior Web Developer</title>
+      <title>
+        An accomplished and high-achieving professional now looking to utilise
+        an excellent skill set specializing in web development.
+      </title>
       <AnimatePresence>
         <LogoPosition key={id()}>
           <motion.div
