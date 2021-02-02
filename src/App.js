@@ -231,7 +231,7 @@ export default function App() {
             >
               <Resume>
                 <a
-                  href="https://1drv.ms/b/s!AoWb_z-Z8JWwpvFRJiRhXGaWSKygnw?e=ehPywt"
+                  href="https://www.icloud.com/iclouddrive/0dD8a-dCeFwJe3yKYgq4cIB-g#Karolis_Kimtys_CV"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
