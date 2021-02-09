@@ -196,7 +196,7 @@ export default function App() {
             >
               <Linkedin>
                 <a
-                  href="https://www.linkedin.com/in/karolis-k"
+                  href="https://www.linkedin.com/in/karoliskimtys/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -231,7 +231,7 @@ export default function App() {
             >
               <Resume>
                 <a
-                  href="https://1drv.ms/b/s!AoWb_z-Z8JWwpvFXy87kiCbp1tMNPw?e=k90dzT"
+                  href="https://1drv.ms/b/s!AoWb_z-Z8JWwpvFXy87kiCbp1tMNPw?e=Cr0sg5"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
