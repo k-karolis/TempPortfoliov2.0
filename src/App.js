@@ -231,7 +231,7 @@ export default function App() {
             >
               <Resume>
                 <a
-                  href="https://1drv.ms/w/s!AoWb_z-Z8JWwpvFSBAcHaYP8mHOcBQ?e=u7S10V"
+                  href="https://1drv.ms/b/s!AoWb_z-Z8JWwpvFXy87kiCbp1tMNPw?e=k90dzT"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
